@@ -1,0 +1,49 @@
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background-color: #DEDEDE;
+    padding: 10px;
+}
+
+.Box {
+    background-color: #fff;
+    text-align: center;
+    width: 20%;
+    border: black 1px solid;
+
+}
+
+.BoxImage {
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+p {
+    margin: 10px 0;
+    font-weight: bold;
+    color: #333;
+}
+
+@media screen and (max-width:600px) {
+    div{
+        display: block;
+    }
+    .Box{
+        width: 60%;
+        margin-bottom: 20px;
+    }
+    .BoxImage{
+        margin-left: 20px;
+    }
+}
